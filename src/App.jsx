@@ -1,10 +1,11 @@
-import Counter from './Counter'
-;import Batsman from './Batsman';
+import Counter from './Counter';
+import Batsman from './Batsman';
+import Users from './Users';
 import './App.css'
 
 function App() {
   function handleClick() {
-    alert('I am clicked!')
+    alert('I am clicked!');
   }
 
   //most used way of event handling
@@ -20,8 +21,8 @@ function App() {
     <>
       <h3>Vite + React</h3>
 
+      <Users></Users>
       <Batsman></Batsman>
-
       <Counter></Counter>
 
       <button onClick={handleClick}>Click me</button>
